@@ -12,7 +12,7 @@
     }
     public class TestGeneric
     {
-        static void Main()
+        static void SecondMain()
         {
             // Declare a list of type int.
             GenericList<int> list1 = new GenericList<int>();

@@ -110,7 +110,7 @@
         // GetArea method is required to avoid a compile-time error.
         public override int GetArea() => _side * _side;
 
-        static void Main()
+        static void TestMain()
         {
             var sq = new Square(12);
             Console.WriteLine($"Area of the square = {sq.GetArea()}");
@@ -128,7 +128,7 @@
 
     class SealedTest2
     {
-        static void Main()
+        static void Test2Main()
         {
             var sc = new SealedClass();
             sc.x = 110;
